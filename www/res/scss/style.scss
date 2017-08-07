@@ -1,0 +1,562 @@
+$mainColor: #FFBB02;
+
+
+
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+.padding{
+    padding-left: 130px;
+    padding-right: 130px;
+}
+.col-md-12.top-line{
+    background-color: black;
+    height: 8px;
+}
+.col-md-12.top-head{
+    height: 90px;
+    background-color: $mainColor;
+}
+.arenda-img{
+    padding-top: 15px;
+    text-align: center;
+    
+}
+.arenda-img img{
+    width: 100%;
+}
+.arenda-text{
+    line-height: 1.714;
+    padding-top: 20px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.adress{
+    line-height: 1.714;
+    padding-top: 20px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    text-align: right;
+}
+.navbar-brand img{
+    height: 100%;
+}
+.navbar-brand{
+    padding: 10px 0px 10px 0px;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 0x solid transparent;
+}
+.navbar-default{
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+}
+.caption{
+    
+}
+.carousel-control-left{
+    bottom: 30px;
+    position: relative;
+}
+.switch{
+    padding: 0;
+    position: absolute;
+    z-index: 15;
+    text-align: center;
+}
+.carousel-indicators {
+    padding: 0;
+    float: right;
+}
+.carousel-indicators li {
+    display: block;
+    margin-top: 15px;
+    height: 15px;
+    width: 15px;
+    background-color: #000;
+}
+.carousel-indicators .active {
+    height: 15px;
+    width: 15px;
+    background-color: #FFF;
+}
+.controls{
+    position: absolute;
+    bottom: 0px;
+    z-index: 15;
+    text-align: center;
+}
+.slider{
+    padding: 0;
+}
+.item img{
+    width: 100%;
+}
+.col-md-12.path{
+    height: 110px;
+    background: #FFF;
+    padding-top: 50px;
+}
+.venicle-img img{
+    width: 100%;
+    height: 100%;
+}
+.venicle-name{
+    height: 55px;
+    font-size: 20px;
+    padding: 0;
+    font-weight: bold;
+}
+.venicle-characteristics, .venicle-characteristics-info{
+    text-align: left;
+    background-color: transparent;
+    height: 38px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'PTSans';
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(205, 205, 205);
+    border-radius: 3px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.35);
+}
+.venicle-characteristics-info{
+    margin-top: 10px;
+}
+.venicle-characteristics img, .venicle-characteristics-info img{
+    float: right;
+    height: 20px;
+    width: 20px;
+    margin-top: 7px;
+}
+.venicle-characteristics-list, .venicle-characteristics-list .col-md-12,
+.venicle-characteristic-info, .venicle-characteristic-info .col-md-12{
+    padding: 0;
+}
+.venicle-characteristics-list .col-md-12{
+    padding-top: 15px;
+}
+.venicle-characteristics-list, .venicle-characteristic-info{
+    padding-top: 15px;
+    margin-bottom: 30px;
+    display: none;
+}
+.radio-label{
+    margin-left: 50px;
+    font-weight: 300;
+    font-size: 16px;
+}
+.custom-radio{
+    display: none;
+}
+label.radio-label:before{
+    content: "";
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
+    position: absolute;
+    left: 0;
+}
+.custom-radio:checked + label.radio-label:after{
+    content: "";
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+    border: 2px solid black;
+    position: absolute;
+    left: 0;
+    background-color: black;
+}
+.col-md-12.description{
+    font-size: 16px;
+    font-weight: bold;
+}
+.button-buy{
+    background-color: #FFF;
+}
+.button-buy button{
+    height: 33px;
+    background-color: #FCC502;
+    width: 133px;
+    border: 2px solid #FAB500;
+    border-radius: 5px;
+    float: right;
+}
+.button-buy label{
+    font-size: 24px;
+    font-weight: bold;
+}
+.col-md-12.uslugi{
+    margin-top: 45px;
+    text-align: center;
+    border-top: 2px solid #818180;
+    height: 90px;
+    font-size: 24px;
+    padding-top: 50px;
+}
+.row.services{
+    height: auto;
+    background-color: #FFBB02;
+}
+.servic-item{
+    height: auto;
+    padding: 0;
+    padding-bottom: 48px;
+    padding-top: 48px;
+}
+.servic-item-img{
+    padding-right: 0;
+}
+.servic-item-img img{
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.servic-name{
+    padding: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.servic-description{
+    margin-top: 35px;
+    padding: 0;
+    font-size: 14px;
+}.task-list{
+    margin-top: 47px;
+}
+.tasks{
+    margin-bottom: 35px;
+    padding: 0;
+    
+}
+.edit-task, .remove-task, .clear-task-text, .add-new-task{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.remove-task{
+    margin-left: 20px;
+}
+.editing-task input{
+    font-size: 18px;
+    border-width: 1px;
+    border-color: rgb(83, 83, 83);
+    border-style: solid;
+    border-radius: 5px;
+    
+    background-color: transparent;
+    box-shadow: inset 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+}
+.task input{
+    border: none;
+    font-size: 18px;
+}
+.add-task{
+    padding: 0;
+}
+.add-task input{
+    font-size: 18px;
+    border-width: 1px;
+    border-color: rgb(83, 83, 83);
+    border-style: solid;
+    border-radius: 5px;
+    background-color: transparent;
+    box-shadow: inset 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    height: 38px;
+}
+.font{
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+.container-fluid.map-and-footer{
+    padding: 0;
+    margin-top: 100px;
+}
+.container-fluid.map-and-footer .col-md-12{
+    padding: 0;
+}
+.row.footer{
+    padding-top: 30px;
+    height: auto;
+    background-color: #000;
+}
+.footer-menu{
+}
+.footer-menu-ul li, .footer-menu-ul-second li{
+    color: #818180;
+    display: inline;
+    font-size: 14px;
+    margin-left: 13px;
+    padding: 0;
+    list-style-type: none;
+}
+.footer-menu-ul li{
+    margin: 0;
+    padding-left: 10px;
+    
+}
+.footer-copyright{
+    padding: 0;
+    text-align: right;
+    color: #818180; 
+    float: right;
+}
+.itex-logo{
+    float: left;
+    padding-left: 35px;
+    text-decoration:underline;
+    color: #818180;
+}
+.itex-logo a:hover{
+    color: #818180;
+    text-decoration:underline;
+}
+.itex-copyright{
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------MEDIA QUERY-----------*/
+@media screen and (min-width: 2560px) {
+    .padding{
+        padding-left: 600px;
+        padding-right: 600px;
+    }
+    .arenda-img img{
+        width: 80%;
+    }
+    .itex-logo{
+        padding-left: 200px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .itex-logo{
+        padding-left: 150px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .top-line{
+        display: none;
+    }
+    .button-buy{
+        width: 40%;
+    }
+    .servic-item{
+        height: 250px;
+    }
+    .arenda-img{
+    padding-top: 15px;
+    text-align: center;
+    
+}
+    .arenda-img{
+        padding-top: 20px;
+    }
+    .arenda-text{
+        font-size: 12px;
+        padding: 0;
+        padding-top: 20px;
+    }
+    .adress{
+        font-size: 12px;
+        padding: 0;
+        padding-top: 20px;
+    }
+    .navbar-brand{
+        padding: 10px 0px 10px 0px;
+        margin-right: 20px;
+    }
+    .collapse.navbar-collapse.col-md-8{
+        margin-left: 30px;
+        padding: 0;
+    }
+    .navbar-header{
+        height: 20px;
+        width: 20px;
+    }
+    .itex-logo{
+        padding-left: 60px;
+    }
+}
+@media screen and (max-width: 768px) {
+.padding{
+    padding-left: 0px;
+    padding-right: 0px;
+ }
+    .top-line{
+        display: none;
+    }
+    .arenda-img{
+        display: none;
+    }
+    .arenda-text{
+        padding: 0;
+        padding-left: 15px;
+        font-size: 14px;
+    }
+    .adress{
+        text-align: left;
+        padding: 0;
+        padding-left: 15px;
+        font-size: 14px;
+    }
+    .controls{
+        width: 100%;
+    }
+    .carousel-control-left{
+        bottom: 0px;
+    }
+    .carousel-indicators{
+        display: none;
+    }
+    .top-head{
+        height: 0px;
+    }
+    .servic-item-img img{
+        height: 100px;
+        width: 100px;
+    }
+    .servic-item{
+        padding: 0;
+        padding-left: 10px;
+        border-bottom: 3px solid #FFFFFF;
+        margin-top: 5px;
+    }
+    .servic-description{
+        margin: 0;
+    }
+    .venicle-img img{
+        width: 50%;
+        height: 50%;
+    }
+    .venicle-characteristics, .venicle-characteristics-info{
+        width: 100%;
+    }
+    .button-buy {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .button-buy label{
+        margin-left: 15px;
+    }
+    .button-buy button{
+        margin-right: 15px;
+    }
+    .current-task{
+        width: 80%;
+    }
+    .new-task-text{
+        width: 80%;
+    }
+    .footer-img{
+        display: none;
+    }
+
+    .footer-copyright{
+        float: left;
+    }
+    .itex-logo{
+        padding-left: 20px;
+    }
+    .footer-menu-ul-second, .footer-menu-ul{
+        padding: 0;
+    }
+}
+@media screen and (max-width: 425px) {
+    .remove-task{
+        margin-left: 23px;
+    }
+    .navbar-brand{
+        padding: 10px 0px 10px 0px;
+        margin-right: 20px;
+    }
+    .collapse.navbar-collapse.col-md-8{
+        margin: 0;
+        margin-top: 30px;
+        padding: 0;
+    }
+    .navbar-header{
+        width: 100%;
+    }
+    .navbar-toggle{
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 375px) {
+    .current-task{
+        width: 75%;
+    }
+    .new-task-text{
+        width: 75%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .current-task{
+        width: 70%;
+    }
+    .new-task-text{
+        width: 70%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------MEDIA QUERY-----------*/
