@@ -47,7 +47,7 @@
                   Услуги строительной<br>техники
               </div>
               <div class="col-md-3 col-md-offset-5 adress">
-                  г. Екатеринбург,  ул.Маяковского, 25<br>   +7 (343) 222-20-17
+                  г. Москва,  ул.Горького, 25<br>   +7 (495) 228-21-17
             </div>
           </div>
           <div class="col-md-12 menu-head padding">
